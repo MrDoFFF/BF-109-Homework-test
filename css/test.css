@@ -1,0 +1,14 @@
+.boxmodel{
+    background-color: blue;
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+    padding: 100px;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; */
+    border: 30px solid red;
+    opacity: 0.5;
+    margin:0px auto;
+    background-image:url(https://www.si.com/.image/t_share/MTY3NTQyMDkwNjgxNTU4NDA3/cristiano-ronaldo-goal-portugal-699.jpg) ;
+}

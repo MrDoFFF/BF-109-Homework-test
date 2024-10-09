@@ -1,0 +1,8 @@
+.items div+span {
+    background-color: red;
+}
+div+span+span{
+    color: pink;
+}
+li:first-child{ background-color: gold
+    ;}
