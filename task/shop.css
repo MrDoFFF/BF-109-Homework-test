@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+
+header .heading {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: calc(100% / 12 * 1);
+    padding: 1rem;
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+    padding: 1rem;
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+    padding: 1rem;
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+    padding: 1rem;
+}
+
+.col-5 {
+    width: calc(100% / 12 * 6);
+    padding: 1rem;
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+    padding: 1rem;
+}
+
+.col-7 {
+    width: calc(100% / 12 * 7);
+    padding: 1rem;
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+    padding: 1rem;
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+    padding: 1rem;
+}
+
+.col-10 {
+    width: calc(100% / 12 * 10);
+    padding: 1rem;
+}
+
+.col-11 {
+    width: calc(100% / 12 * 11);
+    padding: 1rem;
+}
+
+.col-12 {
+    width: calc(100% / 12 * 12);
+    padding: 1rem;
+}
+
+.p-start-0 {
+    padding-left: 0;
+}
+
+.box {
+    height: 100%;
+    border: 1px solid;
+}
+.info{
+    text-align: center;
+}
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 15%;
+}
+
+.box img{
+    width: 100%;
+
+}
+.ss{
+    text-decoration: line-through;
+}
