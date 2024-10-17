@@ -1,0 +1,65 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "home home about about projects projects projects projects"
+      "home home about about blog galery portfolio team"
+      "pricing pricing pricing pricing events events events events"
+      "customer offers contact menu events events events events";
+      background-color: blue;
+  }
+  
+  .customer { grid-area: customer; }
+  
+  .offers { grid-area: offers; }
+  
+  .contact { grid-area: contact; }
+  
+  .menu { grid-area: menu; }
+  
+  .pricing { grid-area: pricing; }
+  
+  .home { grid-area: home; }
+  
+  .about { grid-area: about; }
+  
+  .projects { grid-area: projects; }
+  
+  .blog { grid-area: blog; }
+  
+  .galery { grid-area: galery; }
+  
+  .portfolio { grid-area: portfolio; }
+  
+  .team { grid-area: team; }
+  
+  .events { grid-area: events; }
+  
+  
+  html, body , .container {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* For presentation only, no need to copy the code below */
+  
+  .container * {
+    border: 1px solid red;
+    position: relative;
+  }
+  
+  .container *:after {
+    content:attr(class);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
