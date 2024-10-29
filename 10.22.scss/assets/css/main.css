@@ -1,0 +1,44 @@
+header .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #333;
+}
+header .heading nav ul {
+  display: flex;
+  background-color: #333;
+  gap: 2rem;
+}
+header .heading nav ul li a {
+  font-size: x-large;
+  color: white;
+}
+header .heading .search \.email {
+  border-radius: 10%;
+}
+header .heading button {
+  border-radius: 5%;
+  margin-right: 3rem;
+}
+header .container1 {
+  height: 500px;
+  background-color: teal;
+}
+header .container1 h2 {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container1 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: black;
+}/*# sourceMappingURL=main.css.map */

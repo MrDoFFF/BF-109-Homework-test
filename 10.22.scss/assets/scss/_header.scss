@@ -1,0 +1,53 @@
+header{
+    .heading{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        background-color: $primary-color;
+        nav{
+            ul{
+            
+                display:flex;
+                background-color:$primary-color;
+                gap:2rem;
+            
+                li{
+                    a{
+                    font-size: x-large;
+                        color:$third-color;
+                       
+                    }
+                }
+            }
+        }
+        .search{
+            \.email{
+            border-radius: 10%;
+            }
+            }
+            button{
+                border-radius: 5%;
+              margin-right: 3rem;
+            }
+        }
+     .container1{
+        height: 500px;
+        background-color: teal;
+        h2{
+            margin-top: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+     }
+    }
+    
+    
+        
