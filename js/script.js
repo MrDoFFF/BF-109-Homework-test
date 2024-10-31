@@ -71,9 +71,9 @@
 // console.log(sum);
 
 // task11 
-let num = 5;
-let hasil = 1;
-for(let i=num;num>0;i--){
-hasil*=i;
-}
-console.log(hasil);
+// let num = 5;
+// let hasil = 1;
+// for(let i=num;num>0;i--){
+// hasil*=i;
+// }
+// console.log(hasil);
