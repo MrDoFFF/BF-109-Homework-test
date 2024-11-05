@@ -20,15 +20,15 @@
 // Daxil edilən cümlədə ən uzun sözü tapın.
 // sentenceCapitalization("Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, dolores.")
 
-// function enuzunsoz (sentence) {
-//     const words = sentence.split(" ");
-//     let uzunsoz = "";
-//     for (let i = 0; i < words.length; i++) {
-//         if(words[i].length > uzunsoz.length){
-//         uzunsoz = words [i];
-//         }
-//     }
-//     return uzunsoz
-// }
-// const sentence ="real madrid is the big club";
-// console.log(enuzunsoz(sentence))
+function enuzunsoz (sentence) {
+    const words = sentence.split(" ");
+    let uzunsoz = "";
+    for (let i = 0; i < words.length; i++) {
+        if(words[i].length > uzunsoz.length){
+        uzunsoz = words [i];
+        }
+    }
+    return uzunsoz
+}
+const sentence ="real madrid is the big club";
+console.log(enuzunsoz(sentence))
