@@ -103,8 +103,10 @@ let milks=[
 // TASK 1.6
 
 // function calculateTotalPrice(milks){
-//     let total = 0
-//     milks.reduce((milk,price) => {
-//         total +milk.price, 0
-//     });
+
+//  let ave= milks.reduce((total,milk) =>  { total + milk.price,0});
+//   return ave
+  
 // }
+// let totalprice = calculateTotalPrice(milks)
+// console.log(totalprice);
