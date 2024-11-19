@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Saatı</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Alarm Saatı Qur</h1>
+        <input type="number" id="hour" placeholder="Saat (0-23)" min="0" max="23">
+        <input type="number" id="minute" placeholder="Dəqiqə (0-59)" min="0" max="59">
+        <input type="number" id="second" placeholder="Saniyə (0-59)" min="0" max="59">
+        <button onclick="setAlarm()">Alarmı Qura</button>
+        <button onclick="resetAlarm()">Sıfırla</button>
+        <div id="alarmStatus"></div>
+    </div>
+
+    <script src="./bom.js"></script>
+</body>
+</html>
+
