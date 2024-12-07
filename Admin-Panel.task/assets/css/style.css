@@ -1,0 +1,165 @@
+.side-bar{
+    width: 20%;
+    background-color: #16283C;
+    height: 100vh;
+    position: fixed;
+}
+.dashboard{
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    left: 20%;
+}
+.container{
+    max-width: 100%; 
+    padding: 0;  
+}
+.page{
+    position: relative;
+}
+
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.container-fluid{
+    height: 12rem;
+}
+.navbar-brand h2{
+    color: aliceblue;
+}
+span{
+    color: #1EAF88;
+}
+.side-bar h5{
+    color: aliceblue;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.general{
+    border-bottom: 2px solid #9F4938;
+}
+.fa-gauge-high{
+    color: #F99B00;
+    margin-top: 5px;
+}
+.fa-clock{
+    color: #DC5130;
+    margin-top: 5px;
+}
+.fa-gem{
+    color: #6E3CC3;
+    margin-top: 5px;
+}
+.fa-table-cells{
+    color: #A72AB2;
+    margin-top: 5px;
+}
+.fa-file-fragment{
+    color: #0396D9;
+    margin-top: 5px;
+}
+.fa-briefcase{
+    color: #3895E3;
+    margin-top: 5px;
+}
+.fa-paper-plane{
+    color: #EB1E63;
+    margin-top: 5px;
+}
+.fa-copy{
+    color: #D9902A;
+    margin-top: 5px;
+}
+.fa-map{
+    color: #9F25B4;
+    margin-top: 5px;
+}
+.fa-chart-column{
+    color: #0F9386; 
+    margin-top: 5px;
+}
+.fa-gear{
+    color: #FF9F01;
+    margin-top: 5px;
+}
+li{
+    list-style-type: none;
+    display: flex;
+    line-height: 25px;
+}
+
+li p{
+    color:  white;
+}
+ul{
+    padding: 20px;
+}
+.list li{
+    gap:10px;
+}
+
+#menu{
+    justify-content: space-between;
+    height: 70px;
+    background-color:#16283C;
+    display: flex;
+}
+.menu-icon{
+    gap: 2rem;
+    display: flex;
+ 
+}
+.menu-icon i{
+    color: white;
+    cursor: pointer;
+    padding: 30px;
+    background-color: red;
+}
+.alert-icons i{
+    color: white;
+    gap: 1rem;
+
+}
+.alert-icons{
+display: flex;
+align-items: center;
+gap: 2rem;
+
+  
+}
+.avatar{
+    background-color: red;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+.avatar img{
+    border: none;
+    border-radius: 40px;
+    height: 35px;
+
+}
+.avatar h2{
+    font-size: 16px;
+    color: white;
+}
+.contact{
+    display: flex;
+    gap: 2rem;
+}
+
+.dashboard .title{
+    border-bottom: 1px solid black;
+}
+.dashboard h3{
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+ margin-top: 4rem;
+ margin-left: 2rem;
+ padding-bottom: 1rem;
+}

@@ -1,0 +1,208 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-image: url(https://preview.colorlib.com/theme/course/images/slider_background.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+  }
+  .logo img {
+    width: 51px;
+    height: 43px;
+  }
+  .phone img {
+    width: 50px;
+    height: 50px;
+    padding-right: 15px;
+  }
+  header {
+    width: 87%;
+    background-color: white;
+    height: 104px;
+    position: relative;
+    position: fixed;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  .nav-list li {
+    list-style-type: none;
+  }
+  .nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .nav-list li a:hover{
+      color: #ffb606;
+      transition: 0.5s;
+  }
+  .nav-list {
+    display: flex;
+    gap: 3rem;
+    margin: 0;
+    padding-top: 31px;
+    padding-left: 170px;
+  }
+  .header-content {
+    display: flex;
+  }
+  .phone {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ffb606;
+    width: 280px;
+    height: 104px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .logo {
+    display: flex;
+    padding-top: 60%;
+    padding-left: 90%;
+    transform: translate(-50%, -50%);
+  }
+  .phone {
+    display: flex;
+    align-items: center;
+  }
+  .logo h2 {
+    font-size: 30px;
+    width: 122px;
+    height: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    margin-top: 3px;
+  }
+  .phone span {
+    font-family: "Roboto", serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 20px;
+  }
+  h1 {
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 72px;
+    margin-top: 20%;
+    margin-left: 22%;
+    font-weight: 400;
+  }
+  h1 span {
+    background-color: #ffb606;
+  }
+  .col-4 img {
+    transition: 0.5s ease;
+    width: 62px;
+    height: 62px;
+  }
+  .col-4 {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 350px;
+    height: 160px;
+    transition: 0.5s ease;
+  }
+  .card-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-text h1 {
+    font-size: 40px;
+  }
+  .card-text a {
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: 0.5s ease;
+  }
+  .card-text a:hover {
+    color: black;
+    transition: 0.5s ease;
+  }
+  .col-4:hover {
+    background-color: #ffb606;
+    transition: 0.5s ease;
+  }
+  .cards .row {
+    gap: 2rem;
+  }
+  .cards {
+    margin-top: 7rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  .col-4:hover img {
+    transition: 0.5s ease;
+    filter: brightness(0) invert(1);
+  }
+  .popular-cards img{
+    width: 350px; 
+    height: 263px;
+  }
+  .author-box img{
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+  }
+  .popular-row{
+      display: flex;
+      gap: 2rem;
+      margin-top: 10rem;
+      margin-bottom: 10rem;
+  }
+  .popular-cards{
+      display: flex;
+      justify-content: center;
+      margin-top: 15rem;
+  }
+  .card-title a{
+      text-decoration: none;
+      color: #1a1a1a;
+      font-size: 22px;
+      font-family: "Roboto", serif;
+      font-weight: 500;
+  }
+  .card-title{
+      text-align: center;
+      background-color: #F8F9FB;
+      height: 144px;
+      padding-top: 3rem;
+  }
+  .author-box{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #EAEBEC;
+  }
+  .card-title p{
+      font-family: "Roboto", serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: #a5a5a5;
+  }
+  .author-box .name{
+      font-family: "Roboto", serif;
+      font-size: 14px;
+      font-weight: 500;
+      display: flex;
+      margin-bottom: 0;
+  }
